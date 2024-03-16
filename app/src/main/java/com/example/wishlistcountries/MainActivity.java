@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         countryList = new ArrayList<>();
         countryList.add(new Country("Athens", "Greece", R.drawable.greece));
         countryList.add(new Country("Dubai", "Emirate of Dubai", R.drawable.emirates));
-        countryList.add(new Country("Armsterdam", "Netherlands", R.drawable.netherlands));
+        countryList.add(new Country("Amsterdam", "Netherlands", R.drawable.netherlands));
         countryList.add(new Country("London", "England", R.drawable.england));
         countryList.add(new Country("Tokyo", "Japan", R.drawable.japan));
         countryList.add(new Country("Giza", "Egypt", R.drawable.egypt));
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         builder.setMessage(selectedCountryText.toString());
-        builder.setPositiveButton("OK", null);
+        builder.setPositiveButton("CLOSE", null);
         builder.show();
     }
 }
